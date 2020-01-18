@@ -1,0 +1,14 @@
+[package]
+name = "wav_rust"
+version = "0.1.0"
+authors = ["Lemon TEA <green.c.lemon@gmail.com>"]
+edition = "2018"
+
+[dependencies.byteorder]
+git = "https://github.com/BurntSushi/byteorder.git"
+
+[dependencies.alto]
+git = "https://github.com/jpernst/alto.git"
+
+[dependencies.failure]
+git = "https://github.com/rust-lang-nursery/failure.git"
